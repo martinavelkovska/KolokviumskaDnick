@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  <div class="container" style="    max-width: 1638px;">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Home</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Flights</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Planes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    <div class="image-container">
+  {% load static %}
+<img src="{% static 'balloon1.jpg' %}" class="img-fluid img-responsive d-inline-block"  style="height:400px; width:100%; position: relative;" alt="Balloon">
+       <div class="text-overlay position-absolute top-50 start-50" style="margin-top:-100px; margin-left:-150px" >
+      <p class="text-center" style="color:white">Best Airline Company</p>
+      <h1 class="text-center" style="color:white">Hot Air Balloon Rides</h1>
+      <button type="button"  class="btn btn btn-dark position-relative" style=" margin-left:114px; ">GET YOUR TICKET</button>
+      </div>
+    </div>
+    </div>
+</head>
+<body>
+<div class=" align-items-center justify-content-center container " style="padding-top: 90px">
+<div class="card mb-3 border-0" style=" position: margin-left: 9px; width: 1288px; height: 256px;">
+    <div class="row g-0">
+        <div class="col-md-8">
+            <div class="card-body">
+                <h5 class="card-title text-center">Safety first</h5>
+                <p class="card-text text-center ">This is a wider card with supporting text below as a natural lead-in to additional content.<br> This content is a little bit longer.</p>
+                <button type="button"  class="btn btn btn-dark position-relative" style="    margin-left: 346px; margin-top: 89px; ">READ MORE</button>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <img src="{% static 'Snohomish-Balloon-Ride-01.jpg' %}" class="img-fluid rounded-start" alt="..."   style="height: 256px; width: 574px;margin-left: -82px;">
+        </div>
+    </div>
+</div>
+<div class="card mb-3 border-0" style="width: 1288px; height: 256px; position: relative margin-left:0;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="{% static 'Snohomish-Balloon-Ride-01.jpg' %}" class="img-fluid rounded-start" alt="..." style="height: 256px; width: 574px; margin-left: 235px;">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body" style="margin-left: 247px;">
+        <h5 class="card-title text-center">More Fun</h5>
+        <p class="card-text text-center">This is a wider card with supporting text below as a natural lead-in to additional content.<br> This content is a little bit longer.</p>
+         <button type="button"  class="btn btn btn-dark position-relative" style="margin-left: 244px; margin-top:75px;  ">LEARN MORE</button>
+      </div>
+    </div>
+  </div>
+</div>
+    <h2 class="text-center" style="padding-top:25px">Tickets</h2>
+   <div class="container" style="padding-top: 7px">
+    <div class="card text-center border-0" style="width: 20rem;">
+  <div class="card-body">
+    <h5 class="card-title" style="background-color:#9bc89b; padding: 14px;">Single <br> $40</h5>
+    <p class="card-text" style="background-color: #e2e2e2; height: 179px; margin-top: -14px; padding-top: 12px;">
+        One place in a basket
+        <hr style="margin-top: -153px; width: 204px; margin-left: 46px;">
+        Equipment rental
+        <hr style="width: 204px; margin-left: 46px; margin-top: 2px;">
+        Training and instructions <br>
+      <hr style="width: 204px; margin-left: 46px; margin-top: 2px;">
+      </p>
+    <a href="#" class="btn btn-primary" style="background-color:#457445; margin-top: -15px; width: 168px; height: 40px;">Buy ticket</a>
+  </div>
+</div>
+    <div class="card text-center border-0" style="    margin-top: -273px; width: 20rem; position: relative; margin-left: 483px  " >
+  <div class="card-body">
+    <h5 class="card-title " style="background-color:#9bc89b; padding: 14px;">For Children(6-14 years old) <br> $20</h5>
+    <p class="card-text" style="background-color: #e2e2e2; height: 179px; margin-top: -14px; padding-top: 12px;"> One place in a basket
+        <hr style="margin-top: -153px; width: 204px; margin-left: 46px;">
+        Equipment rental
+        <hr style="width: 204px; margin-left: 46px; margin-top: 2px;">
+        Training and instructions <br>
+      <hr style="width: 204px; margin-left: 46px; margin-top: 2px;">
+      </p>
+    <a href="#" class="btn btn-primary" style="background-color:#457445; margin-top: -12px; width: 168px;  height: 40px;">Buy ticket</a>
+  </div>
+</div>
+       <div class="card text-center border-0" style="width: 20rem;  position: relative;  margin-top: -272px; margin-left: 985px;">
+  <div class="card-body">
+    <h5 class="card-title" style="background-color:#9bc89b; padding: 14px;">Group (4 persons) <br> $150</h5>
+    <p class="card-text" style="background-color: #e2e2e2; height: 179px; margin-top: -14px; padding-top: 12px;"> One place in a basket
+        <hr style="margin-top: -153px; width: 204px; margin-left: 46px;">
+        Equipment rental
+        <hr style="width: 204px; margin-left: 46px; margin-top: 2px;">
+        Training and instructions <br>
+      <hr style="width: 204px; margin-left: 46px; margin-top: 2px;">
+      </p>
+    <a href="#" class="btn btn-primary" style="background-color:#457445;margin-top: -12px; width: 168px; height: 40px;">Buy ticket</a>
+  </div>
+</div>
+</div>
+
+</div>
+</body>
+</html>
